@@ -136,70 +136,15 @@ alt="广告"/> </div>
   <div class="Products_show">
         <div class="Products_title"><h3>数码影像</h3></div>
         <div class="Products_list">
-           <div class="Products_item">
-                <div class="item_img"><a href="#"><img src="images/product1.jpg" alt="手机" width="200px"/></a></div>
-                <div class="item_cont">
-                    <p><a href="#" >Xiaomi/小米 红米手机3S 高配版 指纹识别/金属机身/4100mAh电池</a></p>
-                    <p class="money">?899.00</p>
-                    <p>评论：<span></span><span></span><span></span><span></span><span></span><a href="#">(78条)</a></p>
-                </div>
-            </div>
-            <div class="Products_item">
-                <div class="item_img"><a href="#"><img src="images/product2.jpg" alt="手机" width="200px"/></a></div>
-                <div class="item_cont">
-                    <p><a href="#" >Huawei/华为 华为畅享华为 华为畅华为 华为畅享5S享5S5S</a><br /></p>
-                    <p class="money">?799.00</p>
-                    <p>评论：<span></span><span></span><span></span><span></span><span></span><a href="#">(78条)</a></p>
-                </div>
-            </div>
-            <div class="Products_item">
-                <div class="item_img"><a href="#"><img src="images/product3.jpg" alt="手机" width="200px"/></a></div>
-                <div class="item_cont">
-                    <p><a href="#" >Letv/乐视 乐2 金属化一体机身乐视 乐2 金属化一体机身</a><br /></p>
-                    <p class="money">?1099.00</p>
-                    <p>评论：<span></span><span></span><span></span><span></span><span></span><a href="#">(78条)</a></p>
-                </div>
-            </div>
-            <div class="Products_item">
-                <div class="item_img"><a href="#"><img src="images/product4.jpg" alt="手机" width="200px"/></a></div>
-                <div class="item_cont">
-                    <p><a href="#" >Meizu/魅族 魅蓝note3Meizu/魅族 魅蓝note3Meizu/魅族 魅蓝note3</a><br /></p>
-                    <p class="money">?799.00</p>
-                    <p>评论：<span></span><span></span><span></span><span></span><span></span><a href="#">(78条)</a></p>
-                </div>
-            </div>
-            <div class="Products_item">
-                <div class="item_img"><a href="#"><img src="images/product5.jpg" alt="手机" width="200px"/></a></div>
-                <div class="item_cont">
-                    <p><a href="#" >Xiaomi/小米 小米手机5 全网通标准版 骁龙820处理器 十余项黑科技</a></p>
-                    <p class="money">?1599.00</p>
-                    <p>评论：<span></span><span></span><span></span><span></span><span></span><a href="#">(78条)</a></p>
-                </div>
-            </div>
-            <div class="Products_item">
-                <div class="item_img"><a href="#"><img src="images/product6.jpg" alt="手机" width="200px"/></a></div>
-                <div class="item_cont">
-                    <p><a href="#" >Huawei/华为 P9 plus 红外线Huawei/华为 P9 plus 红外</a><br /></p>
-                    <p class="money">?4399.00</p>
-                    <p>评论：<span></span><span></span><span></span><span></span><span></span><a href="#">(78条)</a></p>
-                </div>
-            </div>
-            <div class="Products_item">
-                <div class="item_img"><a href="#"><img src="images/product7.jpg" alt="手机" width="200px"/></a></div>
-                <div class="item_cont">
-                    <p><a href="#" >OPPO R9 闪充拍OPPO R9 闪充拍OPPO R9 闪充拍</a><br /></p>
-                    <p class="money">?2499.00</p>
-                    <p>评论：<span></span><span></span><span></span><span></span><span></span><a href="#">(78条)</a></p>
-                </div>
-            </div>
-            <div class="Products_item">
-                <div class="item_img"><a href="#"><img src="images/product8.jpg" alt="手机" width="200px"/></a></div>
-                <div class="item_cont">
-                    <p><a href="#" >Meizu/魅族 魅蓝3Meizu/魅族 魅Meizu/魅族 魅蓝3蓝3</a><br /></p>
-                    <p class="money">?1499.00</p>
-                    <p>评论：<span></span><span></span><span></span><span></span><span></span><a href="#">(78条)</a></p>
-                </div>
-            </div>
+          <#list products as product>
+              <div class="Products_item">
+                  <div class="item_img"><a href="#"><img src="http://95.169.16.24:23555/${product.imgUrl}" alt="" width="200px"/></a></div>
+                  <div class="item_cont">
+                      <p><a href="#">${product.name}</a></p>
+                      <p class="money">￥${product.price}</p>
+                  </div>
+              </div>
+          </#list>
         </div>
 <!----娱乐影音区-------------------------------------------->        
         <div class="Products_title"><h3>娱乐数码</h3></div>

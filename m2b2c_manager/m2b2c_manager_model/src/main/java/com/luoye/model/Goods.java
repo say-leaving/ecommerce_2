@@ -9,8 +9,6 @@ public class Goods {
 
     private String title;
 
-    private String titleColor;
-
     private String model;
 
     private Integer placeOrigin;
@@ -21,19 +19,11 @@ public class Goods {
 
     private String images;
 
-    private String originalPrice;
-
-    private BigDecimal minOriginalPrice;
-
-    private BigDecimal maxOriginalPrice;
-
     private String price;
 
     private BigDecimal minPrice;
 
     private BigDecimal maxPrice;
-
-    private Integer giveIntegral;
 
     private Integer buyMinNumber;
 
@@ -43,17 +33,11 @@ public class Goods {
 
     private Byte isShelves;
 
-    private Byte isHomeRecommended;
-
     private Byte photoCount;
 
     private Integer salesCount;
 
     private Integer accessCount;
-
-    private String video;
-
-    private String homeRecommendedImages;
 
     private Integer isDeleteTime;
 
@@ -61,39 +45,28 @@ public class Goods {
 
     private Integer updTime;
 
-    private String contentWeb;
-
-    public Goods(Integer id, Integer brandId, String title, String titleColor, String model, Integer placeOrigin, Integer inventory, String inventoryUnit, String images, String originalPrice, BigDecimal minOriginalPrice, BigDecimal maxOriginalPrice, String price, BigDecimal minPrice, BigDecimal maxPrice, Integer giveIntegral, Integer buyMinNumber, Integer buyMaxNumber, Byte isDeductionInventory, Byte isShelves, Byte isHomeRecommended, Byte photoCount, Integer salesCount, Integer accessCount, String video, String homeRecommendedImages, Integer isDeleteTime, Integer addTime, Integer updTime, String contentWeb) {
+    public Goods(Integer id, Integer brandId, String title, String model, Integer placeOrigin, Integer inventory, String inventoryUnit, String images, String price, BigDecimal minPrice, BigDecimal maxPrice, Integer buyMinNumber, Integer buyMaxNumber, Byte isDeductionInventory, Byte isShelves, Byte photoCount, Integer salesCount, Integer accessCount, Integer isDeleteTime, Integer addTime, Integer updTime) {
         this.id = id;
         this.brandId = brandId;
         this.title = title;
-        this.titleColor = titleColor;
         this.model = model;
         this.placeOrigin = placeOrigin;
         this.inventory = inventory;
         this.inventoryUnit = inventoryUnit;
         this.images = images;
-        this.originalPrice = originalPrice;
-        this.minOriginalPrice = minOriginalPrice;
-        this.maxOriginalPrice = maxOriginalPrice;
         this.price = price;
         this.minPrice = minPrice;
         this.maxPrice = maxPrice;
-        this.giveIntegral = giveIntegral;
         this.buyMinNumber = buyMinNumber;
         this.buyMaxNumber = buyMaxNumber;
         this.isDeductionInventory = isDeductionInventory;
         this.isShelves = isShelves;
-        this.isHomeRecommended = isHomeRecommended;
         this.photoCount = photoCount;
         this.salesCount = salesCount;
         this.accessCount = accessCount;
-        this.video = video;
-        this.homeRecommendedImages = homeRecommendedImages;
         this.isDeleteTime = isDeleteTime;
         this.addTime = addTime;
         this.updTime = updTime;
-        this.contentWeb = contentWeb;
     }
 
     public Goods() {
@@ -122,14 +95,6 @@ public class Goods {
 
     public void setTitle(String title) {
         this.title = title == null ? null : title.trim();
-    }
-
-    public String getTitleColor() {
-        return titleColor;
-    }
-
-    public void setTitleColor(String titleColor) {
-        this.titleColor = titleColor == null ? null : titleColor.trim();
     }
 
     public String getModel() {
@@ -172,30 +137,6 @@ public class Goods {
         this.images = images == null ? null : images.trim();
     }
 
-    public String getOriginalPrice() {
-        return originalPrice;
-    }
-
-    public void setOriginalPrice(String originalPrice) {
-        this.originalPrice = originalPrice == null ? null : originalPrice.trim();
-    }
-
-    public BigDecimal getMinOriginalPrice() {
-        return minOriginalPrice;
-    }
-
-    public void setMinOriginalPrice(BigDecimal minOriginalPrice) {
-        this.minOriginalPrice = minOriginalPrice;
-    }
-
-    public BigDecimal getMaxOriginalPrice() {
-        return maxOriginalPrice;
-    }
-
-    public void setMaxOriginalPrice(BigDecimal maxOriginalPrice) {
-        this.maxOriginalPrice = maxOriginalPrice;
-    }
-
     public String getPrice() {
         return price;
     }
@@ -218,14 +159,6 @@ public class Goods {
 
     public void setMaxPrice(BigDecimal maxPrice) {
         this.maxPrice = maxPrice;
-    }
-
-    public Integer getGiveIntegral() {
-        return giveIntegral;
-    }
-
-    public void setGiveIntegral(Integer giveIntegral) {
-        this.giveIntegral = giveIntegral;
     }
 
     public Integer getBuyMinNumber() {
@@ -260,14 +193,6 @@ public class Goods {
         this.isShelves = isShelves;
     }
 
-    public Byte getIsHomeRecommended() {
-        return isHomeRecommended;
-    }
-
-    public void setIsHomeRecommended(Byte isHomeRecommended) {
-        this.isHomeRecommended = isHomeRecommended;
-    }
-
     public Byte getPhotoCount() {
         return photoCount;
     }
@@ -292,22 +217,6 @@ public class Goods {
         this.accessCount = accessCount;
     }
 
-    public String getVideo() {
-        return video;
-    }
-
-    public void setVideo(String video) {
-        this.video = video == null ? null : video.trim();
-    }
-
-    public String getHomeRecommendedImages() {
-        return homeRecommendedImages;
-    }
-
-    public void setHomeRecommendedImages(String homeRecommendedImages) {
-        this.homeRecommendedImages = homeRecommendedImages == null ? null : homeRecommendedImages.trim();
-    }
-
     public Integer getIsDeleteTime() {
         return isDeleteTime;
     }
@@ -330,13 +239,5 @@ public class Goods {
 
     public void setUpdTime(Integer updTime) {
         this.updTime = updTime;
-    }
-
-    public String getContentWeb() {
-        return contentWeb;
-    }
-
-    public void setContentWeb(String contentWeb) {
-        this.contentWeb = contentWeb == null ? null : contentWeb.trim();
     }
 }

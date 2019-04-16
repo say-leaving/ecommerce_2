@@ -2,7 +2,6 @@ package com.luoye.rest.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.luoye.mapper.GoodsMapper;
-import com.luoye.mapper.UserMapper;
 import com.luoye.model.*;
 import com.luoye.pojo.Res_Product;
 import com.luoye.pojo.ResponseJsonResult;
