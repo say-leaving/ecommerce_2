@@ -1,0 +1,5 @@
+com\luoye\rest\service\impl\ProductServiceImpl.class
+com\luoye\rest\service\ProductService.class
+com\luoye\rest\service\ProductCategoriesService.class
+com\luoye\rest\controller\ProductCategoriesController.class
+com\luoye\rest\service\impl\ProductCategoriesServiceImpl.class

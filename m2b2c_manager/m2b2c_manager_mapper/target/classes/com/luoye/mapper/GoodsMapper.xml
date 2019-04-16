@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.luoye.mapper.GoodsMapper" >
+  <resultMap id="BaseResultMap" type="com.luoye.model.Goods" >
+    <constructor >
+      <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="brand_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="title" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="title_color" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="model" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="place_origin" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="inventory" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="inventory_unit" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="images" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="original_price" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="min_original_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="max_original_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="price" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="min_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="max_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="give_integral" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="buy_min_number" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="buy_max_number" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="is_deduction_inventory" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="is_shelves" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="is_home_recommended" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="photo_count" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="sales_count" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="access_count" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="video" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="home_recommended_images" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="is_delete_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="add_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="upd_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+    </constructor>
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.luoye.model.Goods" >
+    <constructor >
+      <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="brand_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="title" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="title_color" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="model" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="place_origin" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="inventory" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="inventory_unit" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="images" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="original_price" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="min_original_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="max_original_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="price" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="min_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="max_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="give_integral" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="buy_min_number" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="buy_max_number" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="is_deduction_inventory" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="is_shelves" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="is_home_recommended" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="photo_count" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="sales_count" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="access_count" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="video" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="home_recommended_images" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="is_delete_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="add_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="upd_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="content_web" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, brand_id, title, title_color, model, place_origin, inventory, inventory_unit, 
+    images, original_price, min_original_price, max_original_price, price, min_price, 
+    max_price, give_integral, buy_min_number, buy_max_number, is_deduction_inventory, 
+    is_shelves, is_home_recommended, photo_count, sales_count, access_count, video, home_recommended_images, 
+    is_delete_time, add_time, upd_time
+  </sql>
+  <sql id="Blob_Column_List" >
+    content_web
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.luoye.model.GoodsExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from ly_goods
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.luoye.model.GoodsExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from ly_goods
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from ly_goods
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from ly_goods
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.luoye.model.GoodsExample" >
+    delete from ly_goods
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.luoye.model.Goods" >
+    insert into ly_goods (id, brand_id, title, 
+      title_color, model, place_origin, 
+      inventory, inventory_unit, images, 
+      original_price, min_original_price, max_original_price, 
+      price, min_price, max_price, 
+      give_integral, buy_min_number, buy_max_number, 
+      is_deduction_inventory, is_shelves, is_home_recommended, 
+      photo_count, sales_count, access_count, 
+      video, home_recommended_images, is_delete_time, 
+      add_time, upd_time, content_web
+      )
+    values (#{id,jdbcType=INTEGER}, #{brandId,jdbcType=INTEGER}, #{title,jdbcType=CHAR}, 
+      #{titleColor,jdbcType=CHAR}, #{model,jdbcType=CHAR}, #{placeOrigin,jdbcType=INTEGER}, 
+      #{inventory,jdbcType=INTEGER}, #{inventoryUnit,jdbcType=CHAR}, #{images,jdbcType=CHAR}, 
+      #{originalPrice,jdbcType=CHAR}, #{minOriginalPrice,jdbcType=DECIMAL}, #{maxOriginalPrice,jdbcType=DECIMAL}, 
+      #{price,jdbcType=CHAR}, #{minPrice,jdbcType=DECIMAL}, #{maxPrice,jdbcType=DECIMAL}, 
+      #{giveIntegral,jdbcType=INTEGER}, #{buyMinNumber,jdbcType=INTEGER}, #{buyMaxNumber,jdbcType=INTEGER}, 
+      #{isDeductionInventory,jdbcType=TINYINT}, #{isShelves,jdbcType=TINYINT}, #{isHomeRecommended,jdbcType=TINYINT}, 
+      #{photoCount,jdbcType=TINYINT}, #{salesCount,jdbcType=INTEGER}, #{accessCount,jdbcType=INTEGER}, 
+      #{video,jdbcType=CHAR}, #{homeRecommendedImages,jdbcType=CHAR}, #{isDeleteTime,jdbcType=INTEGER}, 
+      #{addTime,jdbcType=INTEGER}, #{updTime,jdbcType=INTEGER}, #{contentWeb,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.luoye.model.Goods" >
+    insert into ly_goods
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="brandId != null" >
+        brand_id,
+      </if>
+      <if test="title != null" >
+        title,
+      </if>
+      <if test="titleColor != null" >
+        title_color,
+      </if>
+      <if test="model != null" >
+        model,
+      </if>
+      <if test="placeOrigin != null" >
+        place_origin,
+      </if>
+      <if test="inventory != null" >
+        inventory,
+      </if>
+      <if test="inventoryUnit != null" >
+        inventory_unit,
+      </if>
+      <if test="images != null" >
+        images,
+      </if>
+      <if test="originalPrice != null" >
+        original_price,
+      </if>
+      <if test="minOriginalPrice != null" >
+        min_original_price,
+      </if>
+      <if test="maxOriginalPrice != null" >
+        max_original_price,
+      </if>
+      <if test="price != null" >
+        price,
+      </if>
+      <if test="minPrice != null" >
+        min_price,
+      </if>
+      <if test="maxPrice != null" >
+        max_price,
+      </if>
+      <if test="giveIntegral != null" >
+        give_integral,
+      </if>
+      <if test="buyMinNumber != null" >
+        buy_min_number,
+      </if>
+      <if test="buyMaxNumber != null" >
+        buy_max_number,
+      </if>
+      <if test="isDeductionInventory != null" >
+        is_deduction_inventory,
+      </if>
+      <if test="isShelves != null" >
+        is_shelves,
+      </if>
+      <if test="isHomeRecommended != null" >
+        is_home_recommended,
+      </if>
+      <if test="photoCount != null" >
+        photo_count,
+      </if>
+      <if test="salesCount != null" >
+        sales_count,
+      </if>
+      <if test="accessCount != null" >
+        access_count,
+      </if>
+      <if test="video != null" >
+        video,
+      </if>
+      <if test="homeRecommendedImages != null" >
+        home_recommended_images,
+      </if>
+      <if test="isDeleteTime != null" >
+        is_delete_time,
+      </if>
+      <if test="addTime != null" >
+        add_time,
+      </if>
+      <if test="updTime != null" >
+        upd_time,
+      </if>
+      <if test="contentWeb != null" >
+        content_web,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="brandId != null" >
+        #{brandId,jdbcType=INTEGER},
+      </if>
+      <if test="title != null" >
+        #{title,jdbcType=CHAR},
+      </if>
+      <if test="titleColor != null" >
+        #{titleColor,jdbcType=CHAR},
+      </if>
+      <if test="model != null" >
+        #{model,jdbcType=CHAR},
+      </if>
+      <if test="placeOrigin != null" >
+        #{placeOrigin,jdbcType=INTEGER},
+      </if>
+      <if test="inventory != null" >
+        #{inventory,jdbcType=INTEGER},
+      </if>
+      <if test="inventoryUnit != null" >
+        #{inventoryUnit,jdbcType=CHAR},
+      </if>
+      <if test="images != null" >
+        #{images,jdbcType=CHAR},
+      </if>
+      <if test="originalPrice != null" >
+        #{originalPrice,jdbcType=CHAR},
+      </if>
+      <if test="minOriginalPrice != null" >
+        #{minOriginalPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="maxOriginalPrice != null" >
+        #{maxOriginalPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="price != null" >
+        #{price,jdbcType=CHAR},
+      </if>
+      <if test="minPrice != null" >
+        #{minPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="maxPrice != null" >
+        #{maxPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="giveIntegral != null" >
+        #{giveIntegral,jdbcType=INTEGER},
+      </if>
+      <if test="buyMinNumber != null" >
+        #{buyMinNumber,jdbcType=INTEGER},
+      </if>
+      <if test="buyMaxNumber != null" >
+        #{buyMaxNumber,jdbcType=INTEGER},
+      </if>
+      <if test="isDeductionInventory != null" >
+        #{isDeductionInventory,jdbcType=TINYINT},
+      </if>
+      <if test="isShelves != null" >
+        #{isShelves,jdbcType=TINYINT},
+      </if>
+      <if test="isHomeRecommended != null" >
+        #{isHomeRecommended,jdbcType=TINYINT},
+      </if>
+      <if test="photoCount != null" >
+        #{photoCount,jdbcType=TINYINT},
+      </if>
+      <if test="salesCount != null" >
+        #{salesCount,jdbcType=INTEGER},
+      </if>
+      <if test="accessCount != null" >
+        #{accessCount,jdbcType=INTEGER},
+      </if>
+      <if test="video != null" >
+        #{video,jdbcType=CHAR},
+      </if>
+      <if test="homeRecommendedImages != null" >
+        #{homeRecommendedImages,jdbcType=CHAR},
+      </if>
+      <if test="isDeleteTime != null" >
+        #{isDeleteTime,jdbcType=INTEGER},
+      </if>
+      <if test="addTime != null" >
+        #{addTime,jdbcType=INTEGER},
+      </if>
+      <if test="updTime != null" >
+        #{updTime,jdbcType=INTEGER},
+      </if>
+      <if test="contentWeb != null" >
+        #{contentWeb,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.luoye.model.GoodsExample" resultType="java.lang.Integer" >
+    select count(*) from ly_goods
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update ly_goods
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.brandId != null" >
+        brand_id = #{record.brandId,jdbcType=INTEGER},
+      </if>
+      <if test="record.title != null" >
+        title = #{record.title,jdbcType=CHAR},
+      </if>
+      <if test="record.titleColor != null" >
+        title_color = #{record.titleColor,jdbcType=CHAR},
+      </if>
+      <if test="record.model != null" >
+        model = #{record.model,jdbcType=CHAR},
+      </if>
+      <if test="record.placeOrigin != null" >
+        place_origin = #{record.placeOrigin,jdbcType=INTEGER},
+      </if>
+      <if test="record.inventory != null" >
+        inventory = #{record.inventory,jdbcType=INTEGER},
+      </if>
+      <if test="record.inventoryUnit != null" >
+        inventory_unit = #{record.inventoryUnit,jdbcType=CHAR},
+      </if>
+      <if test="record.images != null" >
+        images = #{record.images,jdbcType=CHAR},
+      </if>
+      <if test="record.originalPrice != null" >
+        original_price = #{record.originalPrice,jdbcType=CHAR},
+      </if>
+      <if test="record.minOriginalPrice != null" >
+        min_original_price = #{record.minOriginalPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="record.maxOriginalPrice != null" >
+        max_original_price = #{record.maxOriginalPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="record.price != null" >
+        price = #{record.price,jdbcType=CHAR},
+      </if>
+      <if test="record.minPrice != null" >
+        min_price = #{record.minPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="record.maxPrice != null" >
+        max_price = #{record.maxPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="record.giveIntegral != null" >
+        give_integral = #{record.giveIntegral,jdbcType=INTEGER},
+      </if>
+      <if test="record.buyMinNumber != null" >
+        buy_min_number = #{record.buyMinNumber,jdbcType=INTEGER},
+      </if>
+      <if test="record.buyMaxNumber != null" >
+        buy_max_number = #{record.buyMaxNumber,jdbcType=INTEGER},
+      </if>
+      <if test="record.isDeductionInventory != null" >
+        is_deduction_inventory = #{record.isDeductionInventory,jdbcType=TINYINT},
+      </if>
+      <if test="record.isShelves != null" >
+        is_shelves = #{record.isShelves,jdbcType=TINYINT},
+      </if>
+      <if test="record.isHomeRecommended != null" >
+        is_home_recommended = #{record.isHomeRecommended,jdbcType=TINYINT},
+      </if>
+      <if test="record.photoCount != null" >
+        photo_count = #{record.photoCount,jdbcType=TINYINT},
+      </if>
+      <if test="record.salesCount != null" >
+        sales_count = #{record.salesCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.accessCount != null" >
+        access_count = #{record.accessCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.video != null" >
+        video = #{record.video,jdbcType=CHAR},
+      </if>
+      <if test="record.homeRecommendedImages != null" >
+        home_recommended_images = #{record.homeRecommendedImages,jdbcType=CHAR},
+      </if>
+      <if test="record.isDeleteTime != null" >
+        is_delete_time = #{record.isDeleteTime,jdbcType=INTEGER},
+      </if>
+      <if test="record.addTime != null" >
+        add_time = #{record.addTime,jdbcType=INTEGER},
+      </if>
+      <if test="record.updTime != null" >
+        upd_time = #{record.updTime,jdbcType=INTEGER},
+      </if>
+      <if test="record.contentWeb != null" >
+        content_web = #{record.contentWeb,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update ly_goods
+    set id = #{record.id,jdbcType=INTEGER},
+      brand_id = #{record.brandId,jdbcType=INTEGER},
+      title = #{record.title,jdbcType=CHAR},
+      title_color = #{record.titleColor,jdbcType=CHAR},
+      model = #{record.model,jdbcType=CHAR},
+      place_origin = #{record.placeOrigin,jdbcType=INTEGER},
+      inventory = #{record.inventory,jdbcType=INTEGER},
+      inventory_unit = #{record.inventoryUnit,jdbcType=CHAR},
+      images = #{record.images,jdbcType=CHAR},
+      original_price = #{record.originalPrice,jdbcType=CHAR},
+      min_original_price = #{record.minOriginalPrice,jdbcType=DECIMAL},
+      max_original_price = #{record.maxOriginalPrice,jdbcType=DECIMAL},
+      price = #{record.price,jdbcType=CHAR},
+      min_price = #{record.minPrice,jdbcType=DECIMAL},
+      max_price = #{record.maxPrice,jdbcType=DECIMAL},
+      give_integral = #{record.giveIntegral,jdbcType=INTEGER},
+      buy_min_number = #{record.buyMinNumber,jdbcType=INTEGER},
+      buy_max_number = #{record.buyMaxNumber,jdbcType=INTEGER},
+      is_deduction_inventory = #{record.isDeductionInventory,jdbcType=TINYINT},
+      is_shelves = #{record.isShelves,jdbcType=TINYINT},
+      is_home_recommended = #{record.isHomeRecommended,jdbcType=TINYINT},
+      photo_count = #{record.photoCount,jdbcType=TINYINT},
+      sales_count = #{record.salesCount,jdbcType=INTEGER},
+      access_count = #{record.accessCount,jdbcType=INTEGER},
+      video = #{record.video,jdbcType=CHAR},
+      home_recommended_images = #{record.homeRecommendedImages,jdbcType=CHAR},
+      is_delete_time = #{record.isDeleteTime,jdbcType=INTEGER},
+      add_time = #{record.addTime,jdbcType=INTEGER},
+      upd_time = #{record.updTime,jdbcType=INTEGER},
+      content_web = #{record.contentWeb,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update ly_goods
+    set id = #{record.id,jdbcType=INTEGER},
+      brand_id = #{record.brandId,jdbcType=INTEGER},
+      title = #{record.title,jdbcType=CHAR},
+      title_color = #{record.titleColor,jdbcType=CHAR},
+      model = #{record.model,jdbcType=CHAR},
+      place_origin = #{record.placeOrigin,jdbcType=INTEGER},
+      inventory = #{record.inventory,jdbcType=INTEGER},
+      inventory_unit = #{record.inventoryUnit,jdbcType=CHAR},
+      images = #{record.images,jdbcType=CHAR},
+      original_price = #{record.originalPrice,jdbcType=CHAR},
+      min_original_price = #{record.minOriginalPrice,jdbcType=DECIMAL},
+      max_original_price = #{record.maxOriginalPrice,jdbcType=DECIMAL},
+      price = #{record.price,jdbcType=CHAR},
+      min_price = #{record.minPrice,jdbcType=DECIMAL},
+      max_price = #{record.maxPrice,jdbcType=DECIMAL},
+      give_integral = #{record.giveIntegral,jdbcType=INTEGER},
+      buy_min_number = #{record.buyMinNumber,jdbcType=INTEGER},
+      buy_max_number = #{record.buyMaxNumber,jdbcType=INTEGER},
+      is_deduction_inventory = #{record.isDeductionInventory,jdbcType=TINYINT},
+      is_shelves = #{record.isShelves,jdbcType=TINYINT},
+      is_home_recommended = #{record.isHomeRecommended,jdbcType=TINYINT},
+      photo_count = #{record.photoCount,jdbcType=TINYINT},
+      sales_count = #{record.salesCount,jdbcType=INTEGER},
+      access_count = #{record.accessCount,jdbcType=INTEGER},
+      video = #{record.video,jdbcType=CHAR},
+      home_recommended_images = #{record.homeRecommendedImages,jdbcType=CHAR},
+      is_delete_time = #{record.isDeleteTime,jdbcType=INTEGER},
+      add_time = #{record.addTime,jdbcType=INTEGER},
+      upd_time = #{record.updTime,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.luoye.model.Goods" >
+    update ly_goods
+    <set >
+      <if test="brandId != null" >
+        brand_id = #{brandId,jdbcType=INTEGER},
+      </if>
+      <if test="title != null" >
+        title = #{title,jdbcType=CHAR},
+      </if>
+      <if test="titleColor != null" >
+        title_color = #{titleColor,jdbcType=CHAR},
+      </if>
+      <if test="model != null" >
+        model = #{model,jdbcType=CHAR},
+      </if>
+      <if test="placeOrigin != null" >
+        place_origin = #{placeOrigin,jdbcType=INTEGER},
+      </if>
+      <if test="inventory != null" >
+        inventory = #{inventory,jdbcType=INTEGER},
+      </if>
+      <if test="inventoryUnit != null" >
+        inventory_unit = #{inventoryUnit,jdbcType=CHAR},
+      </if>
+      <if test="images != null" >
+        images = #{images,jdbcType=CHAR},
+      </if>
+      <if test="originalPrice != null" >
+        original_price = #{originalPrice,jdbcType=CHAR},
+      </if>
+      <if test="minOriginalPrice != null" >
+        min_original_price = #{minOriginalPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="maxOriginalPrice != null" >
+        max_original_price = #{maxOriginalPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="price != null" >
+        price = #{price,jdbcType=CHAR},
+      </if>
+      <if test="minPrice != null" >
+        min_price = #{minPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="maxPrice != null" >
+        max_price = #{maxPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="giveIntegral != null" >
+        give_integral = #{giveIntegral,jdbcType=INTEGER},
+      </if>
+      <if test="buyMinNumber != null" >
+        buy_min_number = #{buyMinNumber,jdbcType=INTEGER},
+      </if>
+      <if test="buyMaxNumber != null" >
+        buy_max_number = #{buyMaxNumber,jdbcType=INTEGER},
+      </if>
+      <if test="isDeductionInventory != null" >
+        is_deduction_inventory = #{isDeductionInventory,jdbcType=TINYINT},
+      </if>
+      <if test="isShelves != null" >
+        is_shelves = #{isShelves,jdbcType=TINYINT},
+      </if>
+      <if test="isHomeRecommended != null" >
+        is_home_recommended = #{isHomeRecommended,jdbcType=TINYINT},
+      </if>
+      <if test="photoCount != null" >
+        photo_count = #{photoCount,jdbcType=TINYINT},
+      </if>
+      <if test="salesCount != null" >
+        sales_count = #{salesCount,jdbcType=INTEGER},
+      </if>
+      <if test="accessCount != null" >
+        access_count = #{accessCount,jdbcType=INTEGER},
+      </if>
+      <if test="video != null" >
+        video = #{video,jdbcType=CHAR},
+      </if>
+      <if test="homeRecommendedImages != null" >
+        home_recommended_images = #{homeRecommendedImages,jdbcType=CHAR},
+      </if>
+      <if test="isDeleteTime != null" >
+        is_delete_time = #{isDeleteTime,jdbcType=INTEGER},
+      </if>
+      <if test="addTime != null" >
+        add_time = #{addTime,jdbcType=INTEGER},
+      </if>
+      <if test="updTime != null" >
+        upd_time = #{updTime,jdbcType=INTEGER},
+      </if>
+      <if test="contentWeb != null" >
+        content_web = #{contentWeb,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.luoye.model.Goods" >
+    update ly_goods
+    set brand_id = #{brandId,jdbcType=INTEGER},
+      title = #{title,jdbcType=CHAR},
+      title_color = #{titleColor,jdbcType=CHAR},
+      model = #{model,jdbcType=CHAR},
+      place_origin = #{placeOrigin,jdbcType=INTEGER},
+      inventory = #{inventory,jdbcType=INTEGER},
+      inventory_unit = #{inventoryUnit,jdbcType=CHAR},
+      images = #{images,jdbcType=CHAR},
+      original_price = #{originalPrice,jdbcType=CHAR},
+      min_original_price = #{minOriginalPrice,jdbcType=DECIMAL},
+      max_original_price = #{maxOriginalPrice,jdbcType=DECIMAL},
+      price = #{price,jdbcType=CHAR},
+      min_price = #{minPrice,jdbcType=DECIMAL},
+      max_price = #{maxPrice,jdbcType=DECIMAL},
+      give_integral = #{giveIntegral,jdbcType=INTEGER},
+      buy_min_number = #{buyMinNumber,jdbcType=INTEGER},
+      buy_max_number = #{buyMaxNumber,jdbcType=INTEGER},
+      is_deduction_inventory = #{isDeductionInventory,jdbcType=TINYINT},
+      is_shelves = #{isShelves,jdbcType=TINYINT},
+      is_home_recommended = #{isHomeRecommended,jdbcType=TINYINT},
+      photo_count = #{photoCount,jdbcType=TINYINT},
+      sales_count = #{salesCount,jdbcType=INTEGER},
+      access_count = #{accessCount,jdbcType=INTEGER},
+      video = #{video,jdbcType=CHAR},
+      home_recommended_images = #{homeRecommendedImages,jdbcType=CHAR},
+      is_delete_time = #{isDeleteTime,jdbcType=INTEGER},
+      add_time = #{addTime,jdbcType=INTEGER},
+      upd_time = #{updTime,jdbcType=INTEGER},
+      content_web = #{contentWeb,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.luoye.model.Goods" >
+    update ly_goods
+    set brand_id = #{brandId,jdbcType=INTEGER},
+      title = #{title,jdbcType=CHAR},
+      title_color = #{titleColor,jdbcType=CHAR},
+      model = #{model,jdbcType=CHAR},
+      place_origin = #{placeOrigin,jdbcType=INTEGER},
+      inventory = #{inventory,jdbcType=INTEGER},
+      inventory_unit = #{inventoryUnit,jdbcType=CHAR},
+      images = #{images,jdbcType=CHAR},
+      original_price = #{originalPrice,jdbcType=CHAR},
+      min_original_price = #{minOriginalPrice,jdbcType=DECIMAL},
+      max_original_price = #{maxOriginalPrice,jdbcType=DECIMAL},
+      price = #{price,jdbcType=CHAR},
+      min_price = #{minPrice,jdbcType=DECIMAL},
+      max_price = #{maxPrice,jdbcType=DECIMAL},
+      give_integral = #{giveIntegral,jdbcType=INTEGER},
+      buy_min_number = #{buyMinNumber,jdbcType=INTEGER},
+      buy_max_number = #{buyMaxNumber,jdbcType=INTEGER},
+      is_deduction_inventory = #{isDeductionInventory,jdbcType=TINYINT},
+      is_shelves = #{isShelves,jdbcType=TINYINT},
+      is_home_recommended = #{isHomeRecommended,jdbcType=TINYINT},
+      photo_count = #{photoCount,jdbcType=TINYINT},
+      sales_count = #{salesCount,jdbcType=INTEGER},
+      access_count = #{accessCount,jdbcType=INTEGER},
+      video = #{video,jdbcType=CHAR},
+      home_recommended_images = #{homeRecommendedImages,jdbcType=CHAR},
+      is_delete_time = #{isDeleteTime,jdbcType=INTEGER},
+      add_time = #{addTime,jdbcType=INTEGER},
+      upd_time = #{updTime,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
