@@ -15,13 +15,13 @@
 <div class="topBar">
   <div class="comWidth">
     <div class="leftArea fl"> <a href="#" class="collection">收藏本喵</a> </div>
-    <div class="rightArea fr"> 喵!欢迎来到日喵商城！ <a href="#" class="">[登录]</a><a href="#" class="">[免费注册]</a> </div>
+    <div class="rightArea fr"> 喵!欢迎来到m2b2c商城！ <a href="#" class="">[登录]</a><a href="#" class="">[免费注册]</a> </div>
   </div>
 </div>
 <!----logo区-------------------------------------------->
 <div class="logoBar">
   <div class="comWidth">
-    <div class="logo fl"> <a href=""><img src="images/logo.gif" alt="日喵商城"/></a> </div>
+    <div class="logo fl"> <a href=""><img src="images/logo.gif" alt="m2b2c商城"/></a> </div>
     <div class="search_box fl">
       <input type="text" class="search_text fl" />
       <input type="button" value="搜 索" class="search_button fr" />
