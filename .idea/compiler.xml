@@ -16,6 +16,7 @@
         <module name="m2b2c_portal" />
         <module name="m2b2c_rest" />
         <module name="m2b2c_search" />
+        <module name="m2b2c_sso" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +32,7 @@
       <module name="m2b2c_portal" target="1.8" />
       <module name="m2b2c_rest" target="1.8" />
       <module name="m2b2c_search" target="1.8" />
+      <module name="m2b2c_sso" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

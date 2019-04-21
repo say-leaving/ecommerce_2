@@ -1,0 +1,9 @@
+.register-head{
+	padding-top: 30px;
+	/*background: #424242;*/
+	height: 420px;
+	width: 350px;
+	position: absolute;
+	left: 500px;
+	top: 100px;
+}

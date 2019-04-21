@@ -14,6 +14,7 @@
         <module>../m2b2c_manager</module>
         <module>../m2b2c_portal</module>
         <module>../m2b2c_rest</module>
+        <module>../m2b2c_sso</module>
     </modules>
 
 

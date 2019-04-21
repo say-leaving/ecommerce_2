@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/m2b2c_portal/m2b2c_portal.iml" filepath="$PROJECT_DIR$/m2b2c_portal/m2b2c_portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/m2b2c_rest/m2b2c_rest.iml" filepath="$PROJECT_DIR$/m2b2c_rest/m2b2c_rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/m2b2c_search/m2b2c_search.iml" filepath="$PROJECT_DIR$/m2b2c_search/m2b2c_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m2b2c_sso/m2b2c_sso.iml" filepath="$PROJECT_DIR$/m2b2c_sso/m2b2c_sso.iml" />
     </modules>
   </component>
 </project>

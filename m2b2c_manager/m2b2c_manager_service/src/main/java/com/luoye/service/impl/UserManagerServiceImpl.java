@@ -3,9 +3,11 @@ package com.luoye.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.luoye.mapper.UserMapper;
+import com.luoye.model.Goods;
 import com.luoye.model.User;
 import com.luoye.model.UserExample;
 import com.luoye.pojo.PageDataTemplate;
+import com.luoye.pojo.ResponseJsonResult;
 import com.luoye.service.UserManagerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,6 +19,7 @@ public class UserManagerServiceImpl implements UserManagerService{
 
     @Autowired
      private UserMapper userMapper ;
+
 
     /**
      * 查找所有品牌商的数据
@@ -153,4 +156,6 @@ public class UserManagerServiceImpl implements UserManagerService{
     public int updateBrandListById(int id) {
         return 0;
     }
+
+
 }

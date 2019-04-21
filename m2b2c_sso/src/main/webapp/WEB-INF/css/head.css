@@ -1,0 +1,18 @@
+.login-head{
+    padding-top: 30px;
+    /*background: #424242;*/
+    height: 420px;
+    width: 350px;
+    position: absolute;
+    left: 900px;
+    top: 210px;
+}
+.img-size{
+    position: absolute;
+    left: 430px;
+    top: 110px;
+}
+.body-back{
+    background-image: url("../images/login_1.jpg");
+    background-size: cover;
+}

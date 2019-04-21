@@ -2,24 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a35679-e1d0-463e-9a44-df7881d8f91c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/Res_CategoriesForParId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/m2b2c_sso_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/m2b2c_sso_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/m2b2c_sso.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/java/com/luoye/sso/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/resources/properties/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/head.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/passport.base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/regist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/regist.personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/check-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/login_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/mainimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/passcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/spirit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/tmbg-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/js/jquery-1.6.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_common/target/m2b2c_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_common/target/m2b2c_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/ftl/hello.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/UserManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/UserManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/UserManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/UserManagerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/user_manager/product_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/user_manager/product_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/target/tomcat/logs/access_log.2019-04-16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_portal/src/main/webapp/WEB-INF/ftl/Product.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_portal/src/main/webapp/WEB-INF/ftl/Product.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_portal/target/tomcat/logs/access_log.2019-04-16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/controller/ProductCategoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/controller/ProductCategoriesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/ProductCategoriesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/ProductCategoriesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/impl/ProductCategoriesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/impl/ProductCategoriesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_rest/target/classes/com/luoye/rest/controller/ProductCategoriesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_rest/target/classes/com/luoye/rest/controller/ProductCategoriesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_rest/target/classes/com/luoye/rest/service/ProductCategoriesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_rest/target/classes/com/luoye/rest/service/ProductCategoriesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_rest/target/classes/com/luoye/rest/service/impl/ProductCategoriesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_rest/target/classes/com/luoye/rest/service/impl/ProductCategoriesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m2b2c_rest/target/tomcat/logs/access_log.2019-04-16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/target/tomcat/logs/access_log.2019-04-20" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/target/tomcat/logs/access_log.2019-04-20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/welcome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/welcome_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/ueditor/jsp/controller_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/ueditor/jsp/controller_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2b2c_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m2b2c_rest/target/tomcat/logs/access_log.2019-04-20" beforeDir="false" afterPath="$PROJECT_DIR$/m2b2c_rest/target/tomcat/logs/access_log.2019-04-20" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/m2b2c_parent/target/" />
     <ignored path="$PROJECT_DIR$/m2b2c_common/target/" />
@@ -33,6 +63,7 @@
     <ignored path="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_mapper/target/" />
     <ignored path="$PROJECT_DIR$/m2b2c_portal/target/" />
     <ignored path="$PROJECT_DIR$/m2b2c_rest/target/" />
+    <ignored path="$PROJECT_DIR$/m2b2c_sso/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,67 +88,77 @@
     <session id="1541679459">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="5" />
           <entry key="ftl" value="5" />
-          <entry key="html" value="4" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="32" />
-          <entry key="jsp" value="6" />
-          <entry key="properties" value="3" />
+          <entry key="html" value="6" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="53" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="1" />
+          <entry key="jsp" value="11" />
+          <entry key="properties" value="5" />
           <entry key="rnc" value="1" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="5" />
           <entry key="FTL" value="5" />
-          <entry key="HTML" value="4" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="32" />
-          <entry key="JSP" value="6" />
-          <entry key="Properties" value="3" />
+          <entry key="HTML" value="6" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="53" />
+          <entry key="JSP" value="11" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Properties" value="5" />
           <entry key="RNG Compact" value="1" />
-          <entry key="XML" value="13" />
+          <entry key="XML" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ftl" value="205" />
-          <entry key="html" value="694" />
+          <entry key="html" value="1168" />
           <entry key="iml" value="7" />
-          <entry key="java" value="1047" />
+          <entry key="java" value="1538" />
+          <entry key="jsp" value="312" />
           <entry key="properties" value="74" />
-          <entry key="xml" value="44" />
+          <entry key="txt" value="11" />
+          <entry key="xml" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="FTL" value="205" />
-          <entry key="HTML" value="694" />
+          <entry key="HTML" value="1168" />
           <entry key="IDEA_MODULE" value="7" />
-          <entry key="JAVA" value="1047" />
+          <entry key="JAVA" value="1538" />
+          <entry key="JSP" value="312" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="Properties" value="74" />
-          <entry key="XML" value="44" />
+          <entry key="XML" value="105" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/user_manager/product_add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="138" column="17" lean-forward="true" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="138" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -125,105 +166,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/css/bootstrap.min.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3858">
-              <caret line="763" column="19" selection-start-line="763" selection-start-column="16" selection-end-line="763" selection-end-column="19" />
+            <state relative-caret-position="359">
+              <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/Res_Categories.java">
+        <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="54" column="45" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="45" />
-              <folding>
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="615">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2b2c_rest/pom.xml">
+        <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/head.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2742" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/FileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/ManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2160">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/controller/ProductCategoriesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" column="57" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/ProductCategoriesService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/impl/ProductCategoriesServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/Res_CategoriesForParId.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding>
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -235,9 +200,9 @@
       <list>
         <option value="JavaScript File" />
         <option value="FxmlFile" />
-        <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -272,14 +237,15 @@
       <find>group_id</find>
       <find>1080</find>
       <find>col-sm</find>
+      <find>淘淘</find>
     </findStrings>
     <replaceStrings>
       <replace>portal</replace>
       <replace>rest</replace>
       <replace>css</replace>
-      <replace>m2b2c</replace>
       <replace>col-sm</replace>
       <replace>col-lg</replace>
+      <replace>m2b2c</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -288,17 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/m2b2c_portal/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/m2b2c_portal/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/m2b2c_portal/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_mapper/src/main/java/com/luoye/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/resources/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/resources/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/BrandManagerService.java" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_mapper/src/main/java/com/luoye/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_mapper/src/main/java/com/luoye/mapper/GoodsCategoryMapper.java" />
         <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/BrandController.java" />
         <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/BrandManagerServiceImpl.java" />
         <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/user_manager/Verify_brand.html" />
@@ -306,9 +261,7 @@
         <option value="$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/PageDataTemplate.java" />
         <option value="$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/Page.java" />
         <option value="$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/Res_Categories.java" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/UserManagerService.java" />
         <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/ManagerController.java" />
-        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/UserManagerServiceImpl.java" />
         <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/ftl/brandData.ftl" />
         <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/user_manager/brand.html" />
         <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/user_manager/root.html" />
@@ -339,6 +292,19 @@
         <option value="$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/impl/ProductCategoriesServiceImpl.java" />
         <option value="$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/controller/ProductCategoriesController.java" />
         <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/user_manager/product_add.html" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/UserManagerService.java" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/ProductService.java" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/UserManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-service.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/m2b2c_sso/src/main/java/com/luoye/sso/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/m2b2c_sso/pom.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/login.jsp" />
       </list>
     </option>
   </component>
@@ -403,10 +369,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-55" />
+    <option name="y" value="126" />
+    <option name="width" value="1466" />
+    <option name="height" value="901" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -416,203 +383,180 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luoye" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luoye" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="m2b2c_manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="user_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luoye" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luoye" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luoye" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luoye" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="luoye" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="m2b2c_rest" type="462c0819:PsiDirectoryNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="m2b2c_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555692663094" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555835251171" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GeneratorMybatis" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="D:/ideaworkspace/TraverAr" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.254023" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\say\Desktop\2019毕设\ecommerce_2\m2b2c_manager\m2b2c_manager_model\src\main\java\com\luoye\model" />
-      <recent name="C:\Users\say\Desktop\2019毕设\ecommerce_2\m2b2c_manager\m2b2c_manager_mapper\src\main\java\com\luoye\mapper" />
-      <recent name="J:\2019graduate\ecommerce_2\m2b2c_manager\m2b2c_manager_mapper\src\main\java\com\luoye\mapper" />
-      <recent name="J:\2019graduate\ecommerce_2\m2b2c_manager\m2b2c_manager_model\src\main\java\com\luoye\model" />
-      <recent name="J:\2019graduate\ecommerce_2\m2b2c_portal\src\main\webapp" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\say\Desktop\2019毕设\ecommerce_2\m2b2c_sso\src\main" />
+      <recent name="J:\2019graduate\ecommerce_2\m2b2c_portal\src\main\webapp\WEB-INF\ftl" />
+      <recent name="J:\2019graduate\ecommerce_2\m2b2c_manager\m2b2c_manager_web\src\main\java\com\luoye\controller" />
+      <recent name="J:\2019graduate\ecommerce_2\m2b2c_manager\m2b2c_manager_service\src\main\java\com\luoye\service\impl" />
+      <recent name="J:\2019graduate\ecommerce_2\m2b2c_manager\m2b2c_manager_web\src\main\webapp\WEB-INF\html" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.luoye.mapper" />
       <recent name="com.luoye.model" />
       <recent name="com.luoye.portal.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="J:\2019graduate\ecommerce_2\m2b2c_portal\src\main\webapp\WEB-INF\ftl" />
-      <recent name="J:\2019graduate\ecommerce_2\m2b2c_manager\m2b2c_manager_web\src\main\java\com\luoye\controller" />
-      <recent name="J:\2019graduate\ecommerce_2\m2b2c_manager\m2b2c_manager_service\src\main\java\com\luoye\service\impl" />
-      <recent name="J:\2019graduate\ecommerce_2\m2b2c_manager\m2b2c_manager_web\src\main\webapp\WEB-INF\html" />
-      <recent name="J:\2019graduate\ecommerce_2\m2b2c_manager\m2b2c_manager_web\src\main\webapp\WEB-INF" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\say\Desktop\2019毕设\ecommerce_2\m2b2c_sso\src\main\webapp\WEB-INF\images" />
+      <recent name="C:\Users\say\Desktop\2019毕设\ecommerce_2\m2b2c_sso\src\main\webapp\WEB-INF\css" />
+      <recent name="C:\Users\say\Desktop\2019毕设\ecommerce_2\m2b2c_sso\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\say\Desktop\2019毕设\ecommerce_2\m2b2c_sso\src\main\webapp\WEB-INF\js" />
+      <recent name="C:\Users\say\Desktop\2019毕设\ecommerce_2\m2b2c_sso\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -627,7 +571,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.test">
+  <component name="RunManager" selected="Maven.sso">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -711,6 +655,32 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="sso" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/m2b2c_sso" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -757,6 +727,7 @@
     <list>
       <item itemvalue="Maven.test" />
       <item itemvalue="Maven.rest" />
+      <item itemvalue="Maven.sso" />
       <item itemvalue="Maven.portal" />
     </list>
   </component>
@@ -801,12 +772,14 @@
       <workItem from="1554968788781" duration="22950000" />
       <workItem from="1555317593692" duration="613000" />
       <workItem from="1555387424214" duration="13620000" />
-      <workItem from="1555673530245" duration="16576000" />
+      <workItem from="1555673530245" duration="16750000" />
+      <workItem from="1555727744104" duration="7018000" />
+      <workItem from="1555815139508" duration="8115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278994000" />
+    <option name="totallyTimeSpent" value="294301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,8 +791,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-55" y="126" width="1466" height="901" extended-state="1" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.15544675" side_tool="true" weight="0.28518122" />
       <window_info id="Image Layers" order="1" />
@@ -828,22 +800,22 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Structure" order="6" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.84455323" visible="true" weight="0.21428572" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.84455323" visible="true" weight="0.17496444" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.09434968" side_tool="true" visible="true" weight="0.4180602" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.15991472" side_tool="true" weight="0.46822742" />
       <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.4969743" weight="0.15656565" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.2571744" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.9056503" visible="true" weight="0.4180602" />
-      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.4989339" weight="0.3277592" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.9077825" weight="0.5206243" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.84008527" weight="0.5953177" />
+      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.4977001" weight="0.32750398" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.9077825" visible="true" weight="0.2735849" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.08585858" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.1663113" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.1663113" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -871,7 +843,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/UserManagerServiceImpl.java</url>
-          <line>88</line>
+          <line>91</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
@@ -883,207 +855,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/m2b2c_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/resources/properties/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#967#981#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_mapper/src/main/java/com/luoye/mapper/GoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_mapper/src/main/java/com/luoye/mapper/GoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_model/src/main/java/com/luoye/model/GoodsExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_model/src/main/java/com/luoye/model/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1890">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/resources/properties/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/webapp/WEB-INF/ftl/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/java/com/luoye/portal/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/ResponseJsonResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/java/com/luoye/portal/service/CategoriesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/webapp/WEB-INF/ftl/detail.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/resources/properties/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/utils/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/java/com/luoye/portal/service/Impl/CategoriesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/java/com/luoye/portal/service/Impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/java/com/luoye/portal/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/webapp/WEB-INF/ftl/Product.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3270">
-          <caret line="98" column="10" lean-forward="true" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/jsp/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/jsp/newJsp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/jsp/ueditorTest.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90" />
@@ -1128,33 +899,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/FreemarkerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="40" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_rest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2742" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/core-scripting.rnc">
@@ -1166,46 +915,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3858">
+        <state relative-caret-position="22890">
           <caret line="763" column="19" selection-start-line="763" selection-start-column="16" selection-end-line="763" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/ManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2160">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/Res_Categories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
+        <state relative-caret-position="1140">
           <caret line="54" column="45" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/controller/ProductCategoriesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/Res_CategoriesForParId.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="510">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/impl/ProductCategoriesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/BrandManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/UserManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_common/src/main/java/com/luoye/pojo/ResponseJsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/m2b2c_sso.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_rest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="106" column="12" selection-start-line="93" selection-start-column="4" selection-end-line="106" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="66" column="22" selection-start-line="12" selection-start-column="3" selection-end-line="66" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/resources/properties/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/java/com/luoye/sso/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1220,27 +1080,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/impl/ProductCategoriesServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/controller/ProductCategoriesController.java">
+    <entry file="file://$PROJECT_DIR$/m2b2c_rest/src/main/java/com/luoye/rest/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="390">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_portal/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="37" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/UserManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="155" column="15" selection-start-line="155" selection-start-column="15" selection-end-line="155" selection-end-column="15" />
+          <folding>
+            <element signature="e#4662#4663#0" expanded="true" />
+            <element signature="e#4686#4687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_model/src/main/java/com/luoye/model/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/java/com/luoye/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="16" column="43" selection-start-line="12" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/js/jquery-1.6.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_service/src/main/java/com/luoye/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/login_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/head.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web/src/main/webapp/WEB-INF/user_manager/product_add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="138" column="17" lean-forward="true" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="138" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1298,7 +1267,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|m2b2c_manager_web</last-edited>
+          <last-edited>Web|m2b2c_sso</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

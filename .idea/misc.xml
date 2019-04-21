@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/m2b2c_manager/m2b2c_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/m2b2c_portal" />
     <file type="web" url="file://$PROJECT_DIR$/m2b2c_rest" />
+    <file type="web" url="file://$PROJECT_DIR$/m2b2c_sso" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

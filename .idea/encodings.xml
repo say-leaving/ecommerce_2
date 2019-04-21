@@ -31,6 +31,23 @@
     <file url="file://$PROJECT_DIR$/m2b2c_portal/src/main/webapp/images" charset="GBK" />
     <file url="file://$PROJECT_DIR$/m2b2c_rest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/m2b2c_search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/login.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/passport.base.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/css/regist.personal.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/11.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/check-icon.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/login_1.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/mainimg.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/passcode.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/spirit.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/tmbg-white.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/images/y.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/js/jquery-1.6.4.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/login.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/m2b2c_sso/src/main/webapp/WEB-INF/jsp/register.jsp" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
